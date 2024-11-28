@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to WebTechLabExps</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        h1{
+            color:red;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            height:100vh;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        a{
+            width:20%;
+            height: 30%;
+        }
+        a button{
+            width: 100%;
+            height:100%;
+        }
+        a button:hover{
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to WebTechLabExps</h1>
-    <a href="./Exp1/index.html">Exp1</a>
-    <a href="./Exp2/index.html">Exp2</a>
+    <div class="container">
+        <a href="./Exp1/index.html"><button>Exp1</button></a>
+        <a href="./Exp2/index.html"><button>Exp2</button></a>
+    </div>
+    </div>
 </body>
 </html>
